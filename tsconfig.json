@@ -8,9 +8,15 @@
     "forceConsistentCasingInFileNames": true,
     "rootDir": "./__tests__",
     "sourceMap": true,
-    "types": ["jest", "puppeteer", "jest-environment-puppeteer"],
+    "types": [
+      "jest",
+      "puppeteer",
+      "jest-environment-puppeteer",
+      "@types/jest-image-snapshot"
+    ],
     "outDir": "dist",
-    "strictNullChecks": false
+    "strictNullChecks": false,
+    "noImplicitAny": false
   },
   "include": ["./__tests__"]
 }
